@@ -56,7 +56,6 @@ const SuperheroForm = ({ onSuperheroAdded }) => {
             value={formData.name}
             onChange={handleChange}
             placeholder="Enter name"
-            required
           />
         </div>
 
@@ -68,7 +67,6 @@ const SuperheroForm = ({ onSuperheroAdded }) => {
             value={formData.superpower}
             onChange={handleChange}
             placeholder="Enter superpower"
-            required
           />
         </div>
 
