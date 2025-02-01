@@ -77,13 +77,13 @@ const SuperheroForm = ({ onSuperheroAdded }) => {
           <input
             type="number"
             name="humilityScore"
-            value={formData.humilityScore}
+            value={formData.humilityScore}ß
             onChange={handleChange}
             placeholder="Enter humility score"
           />
         </div>
 
-        <button type="submit">Add a Superhero</button>
+        <button type="submit">Add</button>
         {errorMessage && <p className="error-message">{errorMessage}</p>}
       </form>
     </div>
