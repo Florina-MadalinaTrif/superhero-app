@@ -46,7 +46,7 @@ const SuperheroForm = ({ onSuperheroAdded }) => {
 
   return (
     <div className="container">
-      <h2>Add SUPERHERO</h2>
+      <h2>Add a SUPERHERO</h2>
       <form onSubmit={handleSubmit}>
         <div className="input-group">
           <label>Name:</label>
