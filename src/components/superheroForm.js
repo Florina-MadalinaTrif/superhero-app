@@ -91,5 +91,3 @@ const SuperheroForm = ({ onSuperheroAdded }) => {
 };
 
 export default SuperheroForm;
-
-
