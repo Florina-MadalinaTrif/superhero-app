@@ -31,7 +31,7 @@ const SuperheroForm = ({ onSuperheroAdded }) => {
       });
 
       const responseData = await response.json();
-      
+
       if (!response.ok) {
         throw new Error(responseData.message || "Failed to add superhero");
       }
@@ -83,7 +83,7 @@ const SuperheroForm = ({ onSuperheroAdded }) => {
           />
         </div>
 
-        <button type="submit">Add Superhero</button>
+        <button type="submit">Add a Superhero</button>
         {errorMessage && <p className="error-message">{errorMessage}</p>}
       </form>
     </div>
